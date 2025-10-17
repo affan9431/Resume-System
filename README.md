@@ -2,7 +2,7 @@
 
 ## 🎯 Overview
 
-Welcome to the Resume System—a secure MERN stack application designed to help users build, manage, and share their professional resumes. With robust authentication, encrypted data storage, and a user-friendly interface, this platform ensures your career profile is both impressive and protected.
+Welcome to the Resume System—a secure backend application designed to help users manage and store their professional resumes. With robust authentication, encrypted data storage, and a well-structured API, this system ensures user data is protected while providing a solid foundation for future frontend integration.
 
 ---
 
@@ -94,6 +94,13 @@ node server.js
 - DELETE /api/resumes/:id : Delete a resume.
 
 # Note: All resume endpoints require JWT authentication.  
+
+# Deployment (On Render)
+
+### Live URI: https://resume-system.onrender.com
+
+
+
 
 
 
