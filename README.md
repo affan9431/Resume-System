@@ -29,7 +29,7 @@ Welcome to the Resume System—a secure MERN stack application designed to help 
 ---
 
 ## 🛠️ Project Structure
-
+```
 /Resume-System
 ├── /config
 │   └── db.js           # Database connection
@@ -48,6 +48,7 @@ Welcome to the Resume System—a secure MERN stack application designed to help 
 ├── .gitignore          # Git ignore rules
 ├── package.json        # Project metadata and dependencies
 └── server.js           # Entry point for the application
+```
 
 
 ## ⚙️ Setup Instructions
@@ -93,6 +94,7 @@ node server.js
 - DELETE /api/resumes/:id : Delete a resume.
 
 # Note: All resume endpoints require JWT authentication.  
+
 
 
 
