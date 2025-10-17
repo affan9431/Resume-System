@@ -66,10 +66,11 @@ npm install
 ```
 
 ## Configure environment variables:
-
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+```
 
 ## Start the server:
 
@@ -92,6 +93,7 @@ node server.js
 - DELETE /api/resumes/:id : Delete a resume.
 
 # Note: All resume endpoints require JWT authentication.  
+
 
 
 
